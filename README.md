@@ -33,7 +33,7 @@ Use H$$ to call the Hostess function, it takes up to 3 parameters, first name, l
 
 <pre lang="javascript">
 <code>
-var h = H$$('Mike', 'Me');
+var h = H$$('Mike', 'Jones');
 $('#login').click(function () {
     var lang = $('#lang').val();
     h.setLang(lang).htmlValue('#greeting');
