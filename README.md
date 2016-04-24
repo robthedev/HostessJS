@@ -31,10 +31,13 @@ Html ->
 Javascript -> 
 Use H$$ to call the Hostess function, it takes upto 3 parameters, first name, last name and desired language.
 
+<pre lang="javascript">
+<code>
 var h = H$$('Mike', 'Me');
 $('#login').click(function () {
     var lang = $('#lang').val();
     h.setLang(lang).htmlValue('#greeting');
 });
-
+</code>
+</pre>
 
