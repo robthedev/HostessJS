@@ -29,7 +29,7 @@ Html ->
 
 
 Javascript -> 
-Use H$$ to call the Hostess function, it takes upto 3 parameters, first name, last name and desired language.
+Use H$$ to call the Hostess function, it takes up to 3 parameters, first name, last name and the desired language.
 
 <pre lang="javascript">
 <code>
